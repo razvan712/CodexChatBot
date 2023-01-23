@@ -82,7 +82,7 @@ const handleSubmit =async (e) => {
 
   //fetching response from the server
 
-  const response = await fetch('https://codexchatbot-jr6e.onrender.com/',{
+  const response = await fetch('https://codexchatbot-jr6e.onrender.com',{
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
